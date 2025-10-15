@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intruductio</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">🚀Introductio</a>
+        <nav class="nav">
+            <a href="#pengenalan">Pengenalan</a>
+            <a href="#tata-cara">Tutorial</a>
+            <a href="#refleksi">Refleksi</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Selamat Datang, <span class="typewriter"></span></h1>
+                <p>Mulai mengenal Website dan ciptakan Website Anda sendiri.</p>
+                <a href="#pengenalan" class="hero-button">Mulai Belajar</a>
+            </div>
+        </section>
+
+        <section class="content-section" id="pengenalan">
+            <h2>🪐 Pengenalan: Fondasi Web</h2>
+            
+            <div class="detail-card">
+                <h3>HTML: Kerangka Web</h3>
+                <p>
+                    <strong>HTML (HyperText Markup Language)</strong> adalah bahasa markup standar yang digunakan untuk membuat dan menyusun semua konten di halaman web. Anggapannya HTML adalah arsitek yang membangun fondasi, dinding, dan atap sebuah rumah. Tanpa HTML, tidak ada struktur sama sekali, hanya tumpukan material mentah.
+                </p>
+                <h4>Sejarah Singkat HTML</h4>
+                <p>
+                    Diciptakan oleh Tim Berners-Lee pada tahun 1991, HTML dimulai sebagai cara sederhana untuk berbagi dokumen ilmiah. <strong>HTML 2.0 (1995)</strong> menjadi standar pertama. <strong>HTML 4.01 (1999)</strong> menjadi versi yang sangat populer dan dominan selama bertahun-tahun. Versi modern yang kita gunakan saat ini adalah <strong>HTML5 (2014)</strong>, yang memperkenalkan banyak fitur canggih seperti tag <code>&lt;video&gt;</code>, <code>&lt;audio&gt;</code>, dan elemen semantik seperti <code>&lt;article&gt;</code> dan <code>&lt;header&gt;</code> yang membuat kode lebih bermakna.
+                </p>
+                <h4>Struktur Dasar & Contoh</h4>
+                <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="id"&gt;
+  &lt;head&gt;
+    &lt;title&gt;Judul Halaman Saya&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Halo Dunia!&lt;/h1&gt;
+    &lt;p&gt;Ini adalah website pertama saya.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+                
+                <h4>Video Penjelasan HTML</h4>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/kUMe1FH4CHE" title="Penjelasan HTML" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <p class="video-source">Sumber: <a href="https://www.youtube.com/watch?v=kUMe1FH4CHE" target="_blank">youtube.com/watch?v=kUMe1FH4CHE</a></p>
+            </div>
+            
+            </div>
+            
+            <div class="detail-card">
+                <h3>CSS: Design Web</h3>
+                <p>
+                    <strong>CSS (Cascading Style Sheets)</strong> adalah bahasa yang digunakan untuk mendesain dan menata tampilan halaman HTML. Jika HTML adalah kerangka rumah, CSS adalah cat, wallpaper, perabotan, dan semua dekorasi yang membuatnya indah dan nyaman.
+                </p>
+                <h4>Jenis-Jenis CSS & Contohnya</h4>
+                <ol>
+                    <li>
+                        <strong>Inline CSS:</strong> Style diterapkan langsung ke satu tag HTML.
+                        <pre><code>&lt;h1 style="color: blue;"&gt;Judul Biru&lt;/h1&gt;</code></pre>
+                    </li>
+                    <li>
+                        <strong>Internal CSS:</strong> Style ditulis di dalam tag <code>&lt;style&gt;</code> di bagian <code>&lt;head&gt;</code>.
+                        <pre><code>
+&lt;head&gt;
+  &lt;style&gt;
+    p {
+      color: green;
+      font-size: 18px;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+                        </code></pre>
+                    </li>
+                    <li>
+                        <strong>External CSS:</strong> Style ditulis di file terpisah (misal: <code>style.css</code>) dan dihubungkan ke HTML. Ini adalah praktik terbaik karena memisahkan struktur dan desain.
+                        <pre><code>
+/* Di dalam file style.css */
+body {
+  background-color: #f0f0f0;
+}
+                        </code></pre>
+                    </li>
+                </ol>
+
+                <h4>Video Penjelasan CSS</h4>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/1Rs2ND1ryYc" title="Penjelasan CSS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <p class="video-source">Sumber: <a href="https://www.youtube.com/watch?v=1Rs2ND1ryYc" target="_blank">youtube.com/watch?v=1Rs2ND1ryYc</a></p>
+            </div>
+            
+            </div>
+            
+            <div class="detail-card">
+                <h3>JavaScript</h3>
+                <p>
+                    <strong>JavaScript (JS)</strong> adalah bahasa pemrograman yang membuat website menjadi interaktif. Ibaratnya JavaScript adalah sistem kelistrikan dan semua perangkat elektronik di dalam rumah.
+                </p>
+                <h4>Contoh & Hasil</h4>
+                <p>Berikut contoh JS yang mengubah teks ketika tombol di bawahnya diklik.</p>
+                <div class="code-comparison">
+                    <div class="code-box">
+                        <strong>Kode JavaScript:</strong>
+                        <pre><code>
+const tombol = document.getElementById('tombolUbah');
+const teks = document.getElementById('teksAjaib');
+
+tombol.addEventListener('click', () => {
+  teks.textContent = 'Teks ini telah diubah!';
+});
+                        </code></pre>
+                    </div>
+                    <div class="result-box">
+                        <strong>Hasilnya (Coba Klik):</strong>
+                        <p id="teksDemo">Ini adalah teks awal.</p>
+                        <button class="interactive-button" onclick="document.getElementById('teksDemo').textContent = 'Teks ini telah diubah oleh JavaScript!'">Ubah Teks</button>
+                    </div>
+                </div>
+
+                <h4>Video Penjelasan JavaScript</h4>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/jS4aFq5-91M" title="Penjelasan JavaScript" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <p class="video-source">Sumber: <a href="https://www.youtube.com/watch?v=jS4aFq5-91M" target="_blank">youtube.com/watch?v=jS4aFq5-91M</a></p>
+            </div>
+            
+            </div>
+            
+            <div class="detail-card">
+                <h3>Tailwind CSS</h3>
+                <p>
+                    Mirip dengan CSS,<strong> Tailwind CSS</strong> adalah sebuah framework CSS yang bekerja dengan cara berbeda.Tailwind menggunakan class-class "utilitas" yang sudah disediakan oleh Tailwind langsung di dalam HTML.
+                </p>
+                
+                <h4>Kelebihan Dibanding CSS Biasa & Contoh</h4>
+                <ul>
+                    <li><strong>Tidak Perlu Menamai Class:</strong>Kita tidak perlu pusing memikirkan nama class yang baik.</li>
+                    <li><strong>Pengembangan Super Cepat:</strong> Desain dibangun langsung di HTML, mengurangi waktu bolak-balik antar file.</li>
+                    <li><strong>Desain Konsisten:</strong> Menggunakan skala desain yang sudah ditentukan (untuk warna, spasi, ukuran font) sehingga hasilnya konsisten.</li>
+                </ul>
+                <div class="code-comparison">
+                    <div class="code-box">
+                        <strong>CSS Biasa:</strong>
+                        <pre><code>
+&lt;!-- HTML --&gt;
+&lt;button class="tombol-primer"&gt;Klik Saya&lt;/button&gt;
+
+/* CSS */
+.tombol-primer {
+  background-color: #3b82f6;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+                        </code></pre>
+                    </div>
+                    <div class="code-box">
+                        <strong>Dengan Tailwind CSS:</strong>
+                        <pre><code>
+&lt;!-- Semua di HTML --&gt;
+&lt;button class="bg-blue-500 text-white py-2 px-4 rounded-md"&gt;
+  Klik Saya
+&lt;/button&gt;
+                        </code></pre>
+                    </div>
+                </div>
+                <h4>Video Penjelasan Tailwind CSS</h4>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/ft30zcMlFao" title="Penjelasan Tailwind CSS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <p class="video-source">Sumber: <a href="https://www.youtube.com/watch?v=ft30zcMlFao" target="_blank">youtube.com/watch?v=ft30zcMlFao</a></p>
+            </div>
+            
+            </div>
+        </section>
+
+        <section class="content-section" id="tata-cara">
+            <h2>🛰️ Tutorial: Membuat Website Sederhana</h2>
+            <p style="text-align: center; max-width: 800px; margin: -40px auto 60px;">Mari buat web sederhana di mana pengguna bisa memasukkan data melalui form, dan data tersebut akan muncul di dalam tabel secara dinamis.</p>
+            
+            <div class="step-card">
+                <h3>Langkah 1: Membuat Struktur dengan HTML</h3>
+                <p>Pertama, siapkan kerangka website. Buat file bernama <code>index.html</code> (untuk tutorial ini) dan isi dengan kode berikut. Kode ini berisi form input dan tabel kosong.</p>
+                <pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="id"&gt;
+&lt;head&gt;
+  &lt;title&gt;Form ke Tabel&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class="container"&gt;
+    &lt;h1&gt;Daftar Peserta&lt;/h1&gt;
+    &lt;form id="form-peserta"&gt;
+      &lt;label for="nama"&gt;Nama:&lt;/label&gt;
+      &lt;input type="text" id="nama" required&gt;
+      &lt;label for="email"&gt;Email:&lt;/label&gt;
+      &lt;input type="email" id="email" required&gt;
+      &lt;button type="submit"&gt;Tambah ke Tabel&lt;/button&gt;
+    &lt;/form&gt;
+    &lt;table&gt;
+      &lt;thead&gt;
+        &lt;tr&gt;&lt;th&gt;Nama&lt;/th&gt;&lt;th&gt;Email&lt;/th&gt;&lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody id="data-tabel"&gt;&lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+                </code></pre>
+            </div>
+
+            <div class="step-card">
+                <h3>Langkah 2: Menghubungkan CSS ke HTML</h3>
+                <p>Sekarang, buat file <code>style.css</code>. Lalu hubungkan ke HTML dengan menambahkan <code>&lt;link rel="stylesheet" href="style.css"&gt;</code> di dalam <code>&lt;head&gt;</code> HTML Anda.</p>
+                <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="id"&gt;
+&lt;head&gt;
+&lt;title&gt;Form ke Tabel&lt;/title&gt;
+&lt;link rel="stylesheet" href="style.css"&gt;
+&lt;/head&gt;</code></pre>
+            </div>
+
+            <div class="step-card">
+                <h3>Langkah 3: Mendesain Tampilan dengan CSS</h3>
+                <p>Isi <code>style.css</code> dengan style yang diinginkan.</p>
+                <pre><code>
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+  padding: 20px;
+  margin: 0;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+h1 { text-align: center; color: #2c3e50; }
+form { display: flex; flex-direction: column; gap: 15px; margin-bottom: 30px; }
+label { font-weight: 600; }
+input { padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-family: 'Poppins', sans-serif; font-size: 14px; }
+button { padding: 12px; background: #3498db; color: white; border: none; border-radius: 5px; cursor: pointer; font-family: 'Poppins', sans-serif; font-size: 16px; transition: background-color 0.2s; }
+button:hover { background: #2980b9; }
+table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+th, td { padding: 12px; border: 1px solid #ddd; text-align: left; }
+thead { background-color: #3498db; color: white; }
+tbody tr:nth-child(even) { background-color: #f2f2f2; }
+                </code></pre>
+            </div>
+            
+            <div class="step-card">
+                <h3>Langkah 4: Menghubungkan JavaScript ke HTML</h3>
+                <p>Agar fungsionalitas berjalan, kita perlu menghubungkan file JavaScript. Buat file <code>script.js</code> dan tambahkan tag <code>&lt;script&gt;</code> <strong>tepat sebelum tag penutup <code>&lt;/body&gt;</code></strong> di file HTML Anda. Ini memastikan HTML dimuat terlebih dahulu sebelum script dijalankan.</p>
+                <pre><code>    &lt;!-- ...konten body lainnya... --&gt;
+    &lt;script src="script.js"&gt;&lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+            </div>
+
+            <div class="step-card">
+                <h3>Langkah 5: Menulis Logika dengan JavaScript</h3>
+                <p>Isi file <code>script.js</code> Anda dengan logika untuk mengambil data dari form dan menambahkannya ke tabel.</p>
+                <pre><code>
+const form = document.getElementById('form-peserta');
+const inputNama = document.getElementById('nama');
+const inputEmail = document.getElementById('email');
+const tabelBody = document.getElementById('data-tabel');
+
+form.addEventListener('submit', function(event) {
+  event.preventDefault();
+
+    const nama = inputNama.value;
+    const email = inputEmail.value;
+
+    const barisBaru = document.createElement('tr');
+    const selNama = document.createElement('td');
+    const selEmail = document.createElement('td');
+
+    selNama.textContent = nama;
+    selEmail.textContent = email;
+
+    barisBaru.appendChild(selNama);
+    barisBaru.appendChild(selEmail);
+
+    tabelBody.appendChild(barisBaru);
+
+    form.reset();
+});
+                </code></pre>
+            </div>
+
+            <div class="step-card">
+                <h3>Hasil Akhir Interaktif</h3>
+                <p>Jika semua file digabungkan, hasilnya akan seperti di bawah ini. Coba isi form dan klik tombol "Tambah ke Tabel" untuk melihat data Anda muncul di tabel secara langsung!</p>
+                <iframe src="tutorial-result.html" class="tutorial-frame" title="Hasil Tutorial Form ke Tabel"></iframe>
+            </div>
+        </section>
+
+        <section class="content-section" id="refleksi">
+            <h2>🌌 Refleksi Perjalanan</h2>
+            <div class="card-container">
+                 <div class="card" data-tilt>
+                    <h3>Pesan</h3>
+                    <p style="text-align: justify;">Perkuliahan pemrograman web selama setengah semester ini sangat membuka wawasan saya. Dari yang awalnya tidak tahu apa-apa, sekarang saya jadi paham dasar-dasar bagaimana sebuah website dibuat. 
+                        Materi yang paling saya suka adalah saat belajar memanipulasi elemen dengan JavaScript, rasanya keren bisa membuat halaman web jadi interaktif.</p>
+                </div>
+                 <div class="card" data-tilt>
+                    <h3>Kesan</h3>
+                    <p style="text-align: justify;">Terima kasih banyak, Bu Dr. Dewi Sartika Br Ginting S.Kom., M.Kom. Penjelasannya mudah dipahami dan contoh-contoh yang diberikan sangat relevan. Semoga di sisa semester ini 
+                        (walaupun berbeda mata kuliah) pembelajarannya bisa tetap seru dan ilmunya makin bermanfaat. Semangat terus untuk kita semua!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>241401052 | UTS Muhammad Naufal Zuhdi | Kom A</p>
+    </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
